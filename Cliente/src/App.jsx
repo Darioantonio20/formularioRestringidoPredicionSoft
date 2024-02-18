@@ -56,7 +56,7 @@ function App() {
                 text: 'Por favor llena todos los campos del formulario!',
             });
         } else {
-            fetch('http://localhost:8080/api/user/nuevoFormulario', {
+            fetch('https://backendpredictionsoft-production.up.railway.app/api/user/nuevoFormulario', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
