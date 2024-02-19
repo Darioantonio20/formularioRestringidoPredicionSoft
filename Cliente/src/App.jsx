@@ -138,20 +138,22 @@ function App() {
         {/*End Navbar*/}
             <div id="formLinkRestringido" />
             <div className="bg-info mb-3 p-1 text-center" data-aos="fade-up">
-                <h1 className="mb-3 text-white">Registro para nuevos usuarios</h1>
+                <h1 className="mb-2 text-white">Registro para nuevos usuarios</h1>
             </div>
             <div className="col-12 col-lg-6 notifications-container" data-aos="fade-up">
                 <div className="alert">
                     <div className="flex">
                         <div className="alert-prompt-wrap">
                             <h5 className="text-sm text-yellow-700" style={{ textAlign: "justify" }}>
-                                <h3 className="alert-link text-center mb-5">
+                                <h3 className="alert-link text-center mb-4">
                                     AVISO DE PRIVACIDAD
                                 </h3>
-                                <strong>PredictionSoft</strong>
-                                ® es el responsable del tratamiento de los datos personales que nos proporcione.<br/><br/>
-                                Los datos personales recabados serán utilizados para las siguientes finalidades: <b>Otorgarle los accesos y registro para el
-                                uso demo del sistema PredictionSoft</b>® Usted podrá consultar el aviso de privacidad en: <a href='https://predictionsoft.com.mx/' target='blank'>www.predictionsoft.com.mx</a>
+                                <div className='text-center'>
+                                    <strong>PredictionSoft</strong>
+                                    ® es el responsable del tratamiento de los datos personales que nos proporcione.<br/><br/>
+                                    Los datos personales recabados serán utilizados para las siguientes finalidades: <b>Otorgarle los accesos y registro para el
+                                    uso demo del sistema PredictionSoft</b>® Usted podrá consultar el aviso de privacidad en: <a href='https://predictionsoft.com.mx/' target='blank'>www.predictionsoft.com.mx</a>
+                                </div>
                             </h5>
                         </div>
                     </div>
@@ -161,8 +163,8 @@ function App() {
                 <div className="row justify-content-center">
                      {/* Image section */}
                      <div className="col-lg-6 d-flex align-items-center justify-content-center gradient-custom-2">
-                        <div className="text-white px-3 py-4 p-md-5 mx-md-4 text-center">
-                            <img src={ImgNewForm} loading='lazy' alt="imagen new form" className="img-fluid" style={{ width: "100%" }} data-aos="fade-up"/>
+                        <div className="text-white px-3 py-4 p-md-5 mx-md-4 mb-4 text-center">
+                            <img src={ImgNewForm} loading='lazy' alt="imagen new form" className="img-fluid" style={{ width: "100%" }}/>
                         </div>
                     </div>
                     {/* Form section */}
