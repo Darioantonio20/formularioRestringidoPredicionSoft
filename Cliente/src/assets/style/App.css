@@ -111,12 +111,13 @@
     border-left-width: 4px;
     border-color: #2bb7f7;
     border-radius: 0.375rem;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 87vw;
+
 }
 
 .alert-svg {
-    height: 1.25rem;
+    height: 1rem;
     width: 1.25rem;
     color: #2bb7f7;
 }
@@ -140,7 +141,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  }
+}
 
   /* Footer */
 

@@ -144,17 +144,17 @@ function App() {
                 <div className="alert">
                     <div className="flex">
                         <div className="alert-prompt-wrap">
-                            <h5 className="text-sm text-yellow-700" style={{ textAlign: "justify" }}>
-                                <h3 className="alert-link text-center mb-4">
+                            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-yellow-700" style={{ textAlign: "justify" }}>
+                                <h4 className="alert-link text-center mb-2">
                                     AVISO DE PRIVACIDAD
-                                </h3>
+                                </h4>
                                 <div className='text-center'>
                                     <strong>PredictionSoft</strong>
                                     ® es el responsable del tratamiento de los datos personales que nos proporcione.<br/><br/>
                                     Los datos personales recabados serán utilizados para las siguientes finalidades: <b>Otorgarle los accesos y registro para el
                                     uso demo del sistema PredictionSoft</b>® Usted podrá consultar el aviso de privacidad en: <a href='https://predictionsoft.com.mx/' target='blank'>www.predictionsoft.com.mx</a>
                                 </div>
-                            </h5>
+                            </p>
                         </div>
                     </div>
                 </div>
